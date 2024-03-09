@@ -1,0 +1,43 @@
+.main{
+   background-color: beige;
+    min-height: 100vh;
+}
+.inner-main{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.wel{
+   padding-top: 5px;
+   color: black;
+}
+.inp{
+    padding-top: 170px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.input{
+    height: 30px;
+    width: 400px;
+    opacity: 0.9;
+    text-align: center;
+    border-radius: 5px;
+}
+.btn{
+    height: 30px;
+    width: 150px;
+    padding: 0;
+    border: 2px solid black;
+    margin-top: -150px;
+    margin-left: 250px;
+}
+.btn:hover{
+    background-color: greenyellow;
+    transition: 0.2s;
+    border: 2px solid white;
+    box-shadow: 5px 5px 2px rgb(13, 13, 156);
+}
+.input:hover{
+    border: 2px solid rgb(13, 13, 156);
+}
